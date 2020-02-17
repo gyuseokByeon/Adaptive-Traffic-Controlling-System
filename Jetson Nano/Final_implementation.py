@@ -170,9 +170,9 @@ def cvDrawBoxes(detections, img):
     return img
 
 
-configPath = "Config file path"
-weightPath = "weight file path"
-metaPath = "metadata path"
+configPath = "data_yolov3_tiny/yolov3-tiny-prn.cfg"
+weightPath = 'backup/yolov3-tiny-prn_30000.weights'
+metaPath = "data_yolov3_tiny/obj.data"
 
 # load once
 netMain = None

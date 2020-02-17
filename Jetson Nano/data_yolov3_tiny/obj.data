@@ -1,0 +1,6 @@
+Classes = 4
+train = data_yolov3_tiny/train.txt
+valid = data_yolov3_tiny/test.txt
+names = data_yolov3_tiny/obj.names
+backup = backup_pan3/
+
